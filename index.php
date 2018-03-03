@@ -58,7 +58,7 @@
 				<ul>
 					<li v-for="(item, index) in user_numbers" :key="index">Ваше число: <strong>{{ item.number }}</strong>. Догадки:
 							<ul>
-								<li v-for="(item2, index2) in item.forecast" :key="index2">Экстрасенс: <strong>{{ item2.p_name }}</strong>, число: <strong>{{ item2.number }}</strong>
+								<li v-for="(item2, index2) in item.forecast" :key="index2">Экстрасенс: <strong>{{ item2.name }}</strong>, число: <strong>{{ item2.number }}</strong>
 							</ul>
 					</li>
 				</ul>
